@@ -1,6 +1,7 @@
 			</div><!-- #main -->
 			<footer id="colophon" class="site-footer" role="contentinfo">
 				<div class="site-info">
+					&copy; <?php echo date('Y'); ?> <a href="<?php bloginfo('home'); ?>">Kaleidos Chaos</a>
 				</div><!-- .site-info -->
 			</footer><!-- #colophon -->
 		</div><!-- #page -->

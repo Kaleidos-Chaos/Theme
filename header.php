@@ -19,15 +19,14 @@
     <body <?php body_class(); ?>>
         <div id="page" class="hfeed site">
             <header id="masthead" class="site-header" role="banner">
-                <h1 class="site-title">
-                    <a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-                        <?php bloginfo( 'name' ); ?>
-                    </a>
-                </h1>
+                <a id="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+                    <?php bloginfo( 'name' ); ?>
+                </a>
                 <div id="navbar" class="navbar">
                     <nav id="site-navigation" class="navigation main-navigation" role="navigation">
                         <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
                     </nav><!-- #site-navigation -->
+                    <hr>
                 </div><!-- #navbar -->
             </header><!-- #masthead -->
 
