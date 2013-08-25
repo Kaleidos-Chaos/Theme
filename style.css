@@ -5,35 +5,34 @@
  * Author URI: http://xiphe.net/
  * Description: Main Theme for kaleidos-chaos.de
  * Version: 0.1
- * License: GNU General Public License v2 or later
- * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * License: (C) 2013 Hannes Diercks
  * Text Domain: kaleidos-chaos
  */
-/* line 18, sass/style.sass */
+/* line 17, sass/style.sass */
 body {
   background: url('/wp-content/themes/kaleidos-chaos/images/background.png?1377460911') top left repeat fixed #d3ae83;
   margin: 0;
   font-family: "Cardo", serif;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 18, sass/style.sass */
+  /* line 17, sass/style.sass */
   body {
     background-size: 512px;
   }
 }
 
-/* line 25, sass/style.sass */
+/* line 24, sass/style.sass */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Ruthie", cursive;
 }
 
-/* line 29, sass/style.sass */
+/* line 28, sass/style.sass */
 #page {
   position: relative;
   z-index: 10;
 }
 
-/* line 33, sass/style.sass */
+/* line 32, sass/style.sass */
 #background .vigniette {
   background: transparent;
   position: fixed;
@@ -47,49 +46,49 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: inset 0 0 220px 0 rgba(59, 34, 7, 0.8);
 }
 
-/* line 45, sass/style.sass */
+/* line 44, sass/style.sass */
 #masthead .site-title {
   text-indent: -99999px;
   background: url('/wp-content/themes/kaleidos-chaos/images/banner/768.png?1377463977') top center no-repeat transparent;
   height: 269px;
 }
 @media only screen and (min-width: 769px) {
-  /* line 45, sass/style.sass */
+  /* line 44, sass/style.sass */
   #masthead .site-title {
     background-image: url('/wp-content/themes/kaleidos-chaos/images/banner/1280.png?1377463978');
     height: 449px;
   }
 }
 @media only screen and (min-width: 1281px) {
-  /* line 45, sass/style.sass */
+  /* line 44, sass/style.sass */
   #masthead .site-title {
     background-image: url('/wp-content/themes/kaleidos-chaos/images/banner/1536.png?1377463980');
     height: 538px;
   }
 }
 @media only screen and (min-width: 1537px) {
-  /* line 45, sass/style.sass */
+  /* line 44, sass/style.sass */
   #masthead .site-title {
     background-image: url('/wp-content/themes/kaleidos-chaos/images/banner/1920.png?1377463981');
     height: 674px;
   }
 }
 @media only screen and (min-width: 1921px) {
-  /* line 45, sass/style.sass */
+  /* line 44, sass/style.sass */
   #masthead .site-title {
     background-image: url('/wp-content/themes/kaleidos-chaos/images/banner/2560.png?1377463943');
     height: 898px;
   }
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 45, sass/style.sass */
+  /* line 44, sass/style.sass */
   #masthead .site-title {
     background-size: 384px 134px;
     height: 134px;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 385px), only screen and (min-resolution: 144dpi) and (min-width: 385px) {
-  /* line 45, sass/style.sass */
+  /* line 44, sass/style.sass */
   #masthead .site-title {
     background-image: url('/wp-content/themes/kaleidos-chaos/images/banner/1280.png?1377463978');
     background-size: 640px 224px;
@@ -97,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 641px), only screen and (min-resolution: 144dpi) and (min-width: 641px) {
-  /* line 45, sass/style.sass */
+  /* line 44, sass/style.sass */
   #masthead .site-title {
     background-image: url('/wp-content/themes/kaleidos-chaos/images/banner/1536.png?1377463980');
     background-size: 768px 269px;
@@ -105,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 769px), only screen and (min-resolution: 144dpi) and (min-width: 769px) {
-  /* line 45, sass/style.sass */
+  /* line 44, sass/style.sass */
   #masthead .site-title {
     background-image: url('/wp-content/themes/kaleidos-chaos/images/banner/1920.png?1377463981');
     background-size: 960px 337px;
@@ -113,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 961px), only screen and (min-resolution: 144dpi) and (min-width: 961px) {
-  /* line 45, sass/style.sass */
+  /* line 44, sass/style.sass */
   #masthead .site-title {
     background-image: url('/wp-content/themes/kaleidos-chaos/images/banner/2560.png?1377463943');
     background-size: 1280px 449px;
@@ -121,21 +120,21 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1281px), only screen and (min-resolution: 144dpi) and (min-width: 1281px) {
-  /* line 45, sass/style.sass */
+  /* line 44, sass/style.sass */
   #masthead .site-title {
     background-size: 1536px 538px;
     height: 538px;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1537px), only screen and (min-resolution: 144dpi) and (min-width: 1537px) {
-  /* line 45, sass/style.sass */
+  /* line 44, sass/style.sass */
   #masthead .site-title {
     background-size: 1920px 674px;
     height: 674px;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1921px), only screen and (min-resolution: 144dpi) and (min-width: 1921px) {
-  /* line 45, sass/style.sass */
+  /* line 44, sass/style.sass */
   #masthead .site-title {
     background-size: 2560px 898px;
     height: 898px;
