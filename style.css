@@ -8,7 +8,13 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: kaleidos-chaos
  */
-/* line 12, sass/style.sass */
+/* line 16, sass/style.sass */
 body {
-  background-color: black;
+  background: url('/wp-content/themes/kaleidos-chaos/images/background.png?1377460911') top left repeat fixed #d3ae83;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  /* line 16, sass/style.sass */
+  body {
+    background-size: 512px;
+  }
 }

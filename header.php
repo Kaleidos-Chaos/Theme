@@ -13,6 +13,7 @@
         <!--[if lt IE 9]>
             <script src="<?php echo get_template_directory_uri(); ?>/javascripts/html5.js"></script>
         <![endif]-->
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>

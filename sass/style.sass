@@ -9,5 +9,11 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: kaleidos-chaos
  */
+
+@import 'respond'
+@import 'statics'
+
 body
-	background-color: black
+	background: $background-image top left repeat fixed $background
+	+respond-to(retina)
+		background-size: 512px
