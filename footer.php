@@ -3,6 +3,10 @@
 				<div class="site-info">
 					&copy; <?php echo date('Y'); ?> <a href="<?php bloginfo('home'); ?>">Kaleidos Chaos</a>
 				</div><!-- .site-info -->
+				<nav id="footer-navigation" class="navigation footer-navigation" role="navigation">
+                    <?php wp_nav_menu( array( 'theme_location' => 'footer', 'menu_class' => 'nav-menu' ) ); ?>
+                </nav><!-- #site-navigation -->
+                <div class="clear"></div>
 			</footer><!-- #colophon -->
 		</div><!-- #page -->
 

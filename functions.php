@@ -2,6 +2,7 @@
 
 function kc_register_menus() {
   register_nav_menu('primary', __( 'Main Menu', 'kaleidos-chaos' ));
+  register_nav_menu('footer', __( 'Main Menu', 'kaleidos-chaos' ));
 }
 add_action( 'init', 'kc_register_menus' );
 
