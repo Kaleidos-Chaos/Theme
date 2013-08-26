@@ -167,7 +167,14 @@ p {
   left: 1rem;
   cursor: default;
 }
-/* line 77, sass/style.sass */
+@media only screen and (max-width: 480px) {
+  /* line 72, sass/style.sass */
+  .social-icons {
+    top: 0.5rem;
+    left: 0.5rem;
+  }
+}
+/* line 80, sass/style.sass */
 .social-icons a {
   cursor: pointer;
   font-size: 1.3rem;
@@ -176,18 +183,18 @@ p {
   text-decoration: none;
   color: #3a2206;
 }
-/* line 84, sass/style.sass */
+/* line 87, sass/style.sass */
 .social-icons a span {
   width: 0;
   display: inline-block;
   text-indent: -99999px;
 }
-/* line 88, sass/style.sass */
+/* line 91, sass/style.sass */
 .social-icons a:hover, .social-icons a:focus, .social-icons a:active {
   color: #801b00;
 }
 
-/* line 92, sass/style.sass */
+/* line 95, sass/style.sass */
 #home-link {
   display: block;
   margin: 0;
@@ -196,42 +203,42 @@ p {
   height: 269px;
 }
 @media only screen and (min-width: 769px) {
-  /* line 92, sass/style.sass */
+  /* line 95, sass/style.sass */
   #home-link {
     background-image: url('/cms/wp-content/themes/kaleidos-chaos/images/banner/1280.png?1377463978');
     height: 449px;
   }
 }
 @media only screen and (min-width: 1281px) {
-  /* line 92, sass/style.sass */
+  /* line 95, sass/style.sass */
   #home-link {
     background-image: url('/cms/wp-content/themes/kaleidos-chaos/images/banner/1536.png?1377463980');
     height: 538px;
   }
 }
 @media only screen and (min-width: 1537px) {
-  /* line 92, sass/style.sass */
+  /* line 95, sass/style.sass */
   #home-link {
     background-image: url('/cms/wp-content/themes/kaleidos-chaos/images/banner/1920.png?1377463981');
     height: 674px;
   }
 }
 @media only screen and (min-width: 1921px) {
-  /* line 92, sass/style.sass */
+  /* line 95, sass/style.sass */
   #home-link {
     background-image: url('/cms/wp-content/themes/kaleidos-chaos/images/banner/2560.png?1377463943');
     height: 898px;
   }
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 92, sass/style.sass */
+  /* line 95, sass/style.sass */
   #home-link {
     background-size: 384px 134px;
     height: 134px;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 385px), only screen and (min-resolution: 144dpi) and (min-width: 385px) {
-  /* line 92, sass/style.sass */
+  /* line 95, sass/style.sass */
   #home-link {
     background-image: url('/cms/wp-content/themes/kaleidos-chaos/images/banner/1280.png?1377463978');
     background-size: 640px 224px;
@@ -239,7 +246,7 @@ p {
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 641px), only screen and (min-resolution: 144dpi) and (min-width: 641px) {
-  /* line 92, sass/style.sass */
+  /* line 95, sass/style.sass */
   #home-link {
     background-image: url('/cms/wp-content/themes/kaleidos-chaos/images/banner/1536.png?1377463980');
     background-size: 768px 269px;
@@ -247,7 +254,7 @@ p {
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 769px), only screen and (min-resolution: 144dpi) and (min-width: 769px) {
-  /* line 92, sass/style.sass */
+  /* line 95, sass/style.sass */
   #home-link {
     background-image: url('/cms/wp-content/themes/kaleidos-chaos/images/banner/1920.png?1377463981');
     background-size: 960px 337px;
@@ -255,7 +262,7 @@ p {
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 961px), only screen and (min-resolution: 144dpi) and (min-width: 961px) {
-  /* line 92, sass/style.sass */
+  /* line 95, sass/style.sass */
   #home-link {
     background-image: url('/cms/wp-content/themes/kaleidos-chaos/images/banner/2560.png?1377463943');
     background-size: 1280px 449px;
@@ -263,28 +270,28 @@ p {
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1281px), only screen and (min-resolution: 144dpi) and (min-width: 1281px) {
-  /* line 92, sass/style.sass */
+  /* line 95, sass/style.sass */
   #home-link {
     background-size: 1536px 538px;
     height: 538px;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1537px), only screen and (min-resolution: 144dpi) and (min-width: 1537px) {
-  /* line 92, sass/style.sass */
+  /* line 95, sass/style.sass */
   #home-link {
     background-size: 1920px 674px;
     height: 674px;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1921px), only screen and (min-resolution: 144dpi) and (min-width: 1921px) {
-  /* line 92, sass/style.sass */
+  /* line 95, sass/style.sass */
   #home-link {
     background-size: 2560px 898px;
     height: 898px;
   }
 }
 
-/* line 139, sass/style.sass */
+/* line 142, sass/style.sass */
 #site-navigation {
   font-family: "Ruthie", cursive;
   font-size: 2rem;
@@ -292,71 +299,71 @@ p {
   width: 100%;
   text-align: center;
 }
-/* line 145, sass/style.sass */
+/* line 148, sass/style.sass */
 #site-navigation ul {
   list-style: none;
 }
-/* line 147, sass/style.sass */
+/* line 150, sass/style.sass */
 #site-navigation li {
   display: inline-block;
   margin: 0 2rem;
 }
-/* line 150, sass/style.sass */
+/* line 153, sass/style.sass */
 #site-navigation a {
   color: #75532c;
   text-decoration: none;
 }
-/* line 153, sass/style.sass */
+/* line 156, sass/style.sass */
 #site-navigation a:hover, #site-navigation a:active, #site-navigation a:focus {
   color: #801b00;
 }
-/* line 155, sass/style.sass */
+/* line 158, sass/style.sass */
 #site-navigation .current_page_parent a {
   color: #801b00;
 }
-/* line 157, sass/style.sass */
+/* line 160, sass/style.sass */
 #site-navigation .current_page_item a {
   color: #801b00;
   font-size: 3rem;
 }
 
-/* line 161, sass/style.sass */
+/* line 164, sass/style.sass */
 #primary, #colophon {
   max-width: 700px;
   padding: 0 10px;
   margin: 0 auto;
 }
 
-/* line 166, sass/style.sass */
+/* line 169, sass/style.sass */
 #content {
   margin-top: 4rem;
 }
-/* line 168, sass/style.sass */
+/* line 171, sass/style.sass */
 #content article {
   padding: 0 0 4rem;
   background: url('/cms/wp-content/themes/kaleidos-chaos/images/seperator.svg?1377467703') bottom center no-repeat transparent;
 }
-/* line 171, sass/style.sass */
+/* line 174, sass/style.sass */
 #content article .entry-title {
   font-weight: normal;
   font-size: 4rem;
   color: #3a2206;
 }
-/* line 175, sass/style.sass */
+/* line 178, sass/style.sass */
 #content article .entry-title a {
   text-decoration: none;
   color: #3a2206;
 }
-/* line 178, sass/style.sass */
+/* line 181, sass/style.sass */
 #content article .entry-title a:hover, #content article .entry-title a:focus, #content article .entry-title a:active {
   color: #801b00;
 }
 
-/* line 182, sass/style.sass */
+/* line 185, sass/style.sass */
 #comments textarea, #comments label, #comments input {
   display: block;
 }
-/* line 184, sass/style.sass */
+/* line 187, sass/style.sass */
 #comments textarea, #comments input {
   font-family: "Cardo", serif;
   font-size: 1rem;
@@ -365,40 +372,40 @@ p {
   background: rgba(255, 255, 255, 0.3);
   border: 1px dashed transparent;
 }
-/* line 191, sass/style.sass */
+/* line 194, sass/style.sass */
 #comments textarea:hover, #comments textarea:active, #comments textarea:focus, #comments input:hover, #comments input:active, #comments input:focus {
   outline: none;
   border-color: #3a2206;
   border-style: solid;
 }
-/* line 195, sass/style.sass */
+/* line 198, sass/style.sass */
 #comments textarea:active, #comments textarea:focus, #comments input:active, #comments input:focus {
   -webkit-box-shadow: inset -1px 5px 20px 0 rgba(58, 34, 6, 0.15);
   -moz-box-shadow: inset -1px 5px 20px 0 rgba(58, 34, 6, 0.15);
   box-shadow: inset -1px 5px 20px 0 rgba(58, 34, 6, 0.15);
 }
-/* line 198, sass/style.sass */
+/* line 201, sass/style.sass */
 #comments textarea[type="submit"], #comments input[type="submit"] {
   width: auto;
   float: right;
   padding: 1% 2%;
 }
-/* line 203, sass/style.sass */
+/* line 206, sass/style.sass */
 #comments .comment-list {
   padding: 0;
   font-family: "Ruthie", cursive;
   font-size: 6rem;
 }
-/* line 207, sass/style.sass */
+/* line 210, sass/style.sass */
 #comments .comment-list .comment-body {
   font-family: "Cardo", serif;
   font-size: 1rem;
 }
-/* line 210, sass/style.sass */
+/* line 213, sass/style.sass */
 #comments .comment-list .comment-author {
   height: 85px;
 }
-/* line 212, sass/style.sass */
+/* line 215, sass/style.sass */
 #comments .comment-list .comment-author img {
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -406,50 +413,50 @@ p {
   -o-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 214, sass/style.sass */
+/* line 217, sass/style.sass */
 #comments .comment-list .comment-author cite, #comments .comment-list .comment-author span {
   position: relative;
   top: -18px;
   left: 5px;
 }
-/* line 218, sass/style.sass */
+/* line 221, sass/style.sass */
 #comments .comment-list .comment-meta {
   position: relative;
   top: -21px;
   left: 59px;
   font-size: 0.7rem;
 }
-/* line 223, sass/style.sass */
+/* line 226, sass/style.sass */
 #comments .comment-list .reply {
   font-size: 0.7rem;
 }
 
-/* line 226, sass/style.sass */
+/* line 229, sass/style.sass */
 #colophon {
   font-size: 0.7rem;
   margin: 20px auto;
 }
-/* line 229, sass/style.sass */
+/* line 232, sass/style.sass */
 #colophon .site-info {
   float: left;
   margin: 0 1.6rem 0 0;
 }
-/* line 232, sass/style.sass */
+/* line 235, sass/style.sass */
 #colophon a {
   color: #3a2206;
 }
-/* line 234, sass/style.sass */
+/* line 237, sass/style.sass */
 #colophon a:hover, #colophon a:focus, #colophon a:active {
   color: #801b00;
 }
 
-/* line 238, sass/style.sass */
+/* line 241, sass/style.sass */
 #footer-navigation li {
   float: left;
   margin: 0 1.6rem 0 0;
 }
 
-/* line 243, sass/style.sass */
+/* line 246, sass/style.sass */
 #background .vigniette {
   background: transparent;
   position: fixed;
@@ -460,16 +467,16 @@ p {
   height: 100%;
   width: 100%;
 }
-@media only screen and (max-width: 320px) {
-  /* line 243, sass/style.sass */
+@media only screen and (max-width: 480px) {
+  /* line 246, sass/style.sass */
   #background .vigniette {
     -webkit-box-shadow: inset 0 0 80px 0 rgba(59, 34, 7, 0.9);
     -moz-box-shadow: inset 0 0 80px 0 rgba(59, 34, 7, 0.9);
     box-shadow: inset 0 0 80px 0 rgba(59, 34, 7, 0.9);
   }
 }
-@media only screen and (min-width: 321px) and (max-width: 1023px) {
-  /* line 243, sass/style.sass */
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  /* line 246, sass/style.sass */
   #background .vigniette {
     -webkit-box-shadow: inset 0 0 120px 0 rgba(59, 34, 7, 0.9);
     -moz-box-shadow: inset 0 0 120px 0 rgba(59, 34, 7, 0.9);
@@ -477,39 +484,39 @@ p {
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 243, sass/style.sass */
+  /* line 246, sass/style.sass */
   #background .vigniette {
     -webkit-box-shadow: inset 0 0 200px 0 rgba(59, 34, 7, 0.9);
     -moz-box-shadow: inset 0 0 200px 0 rgba(59, 34, 7, 0.9);
     box-shadow: inset 0 0 200px 0 rgba(59, 34, 7, 0.9);
   }
 }
-/* line 259, sass/style.sass */
+/* line 262, sass/style.sass */
 #background .quote {
   position: fixed;
   font-family: "Ruthie", cursive;
 }
-/* line 263, sass/style.sass */
+/* line 266, sass/style.sass */
 #background .quote-1 {
   color: #75532c;
 }
-/* line 265, sass/style.sass */
+/* line 268, sass/style.sass */
 #background .quote-2 {
   color: #75532c;
 }
-/* line 267, sass/style.sass */
+/* line 270, sass/style.sass */
 #background .quote-3 {
   color: #3a2206;
 }
-/* line 269, sass/style.sass */
+/* line 272, sass/style.sass */
 #background .quote-4 {
   color: #801b00;
 }
-/* line 271, sass/style.sass */
+/* line 274, sass/style.sass */
 #background .quote-5 {
   color: black;
 }
-/* line 273, sass/style.sass */
+/* line 276, sass/style.sass */
 #background .quote-6 {
   color: #014565;
 }
