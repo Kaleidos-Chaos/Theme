@@ -19,6 +19,12 @@
     <body <?php body_class(); ?>>
         <div id="page" class="hfeed site">
             <header id="masthead" class="site-header" role="banner">
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/kaleidos.chaos" class="icon-facebook" title="Kaleidos Chaos bei Facebook"><span>Kaleidos Chaos bei Facebook</span></a>
+                    <a href="http://www.youtube.com/user/KaleidosChaos" class="icon-youtube" title="Kaleidos Chaos bei YouTube"><span>Kaleidos Chaos bei YouTube</span></a>
+                    <a href="https://github.com/Kaleidos-Chaos/" class="icon-github" title="Kaleidos Chaos bei GitHub"><span>Kaleidos Chaos bei GitHub</span></a>
+                    <a href="https://soundcloud.com/kaleidos-chaos" class="icon-soundcloud" title="Kaleidos Chaos bei SoundCloud"><span>Kaleidos Chaos bei SoundCloud</span></a>
+                </div>
                 <a id="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
                     <?php bloginfo( 'name' ); ?>
                 </a>

@@ -1,10 +1,11 @@
 # Require any additional compass plugins here.
 
 # Set this to the root of your project when deployed:
-http_path = "/wp-content/themes/kaleidos-chaos/"
+http_path = "/wp-content/themes/kaleidos-chaos"
 css_dir = "/"
 sass_dir = "sass"
 images_dir = "images"
+fonts_dir = "fonts"
 javascripts_dir = "javascripts"
 
 # You can select your preferred output style here (can be overridden via the command line):

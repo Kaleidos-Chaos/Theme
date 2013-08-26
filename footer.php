@@ -7,7 +7,11 @@
 		</div><!-- #page -->
 
 		<div id="background">
-			<div class="vigniette"></div>
+			<div class="vigniette">
+				<?php for ($i=0; $i < 10; $i++): ?>
+					<div class="quote quote-<?php echo rand(1, 6); ?>" <?php kc_random_styles(); ?>><?php kc_quote(true); ?></div>
+				<?php endfor; ?>
+			</div>
 		</div>
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
