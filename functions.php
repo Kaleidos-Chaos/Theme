@@ -1,5 +1,10 @@
 <?php
 
+function kc_register_menus() {
+  register_nav_menu('primary', __( 'Main Menu', 'kaleidos-chaos' ));
+}
+add_action( 'init', 'kc_register_menus' );
+
 function kc_prepare_quotes() {
 	global $kc_quotes;
 
@@ -44,7 +49,7 @@ function kc_get_random_styles() {
 
 	$styles = array(
 		'font-size' => rand(7, 24).'rem',
-		'opacity' => rand(15, 35)/1000,
+		'opacity' => rand(18, 38)/1000,
 		'top' => (rand(0, 950)/10-25).'%',
 		'left' => (rand(0, 1900)/10-100).'%',
 		'-webkit-transform' => 'rotate('.$rotation.'deg)',

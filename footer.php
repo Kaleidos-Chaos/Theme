@@ -8,7 +8,7 @@
 
 		<div id="background">
 			<div class="vigniette">
-				<?php for ($i=0; $i < 10; $i++): ?>
+				<?php for ($i=0; $i < 15; $i++): ?>
 					<div class="quote quote-<?php echo rand(1, 6); ?>" <?php kc_random_styles(); ?>><?php kc_quote(true); ?></div>
 				<?php endfor; ?>
 			</div>
