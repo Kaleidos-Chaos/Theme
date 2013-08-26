@@ -249,7 +249,12 @@ p
 		left: 0
 		height: 100%
 		width: 100%
-		+box-shadow(inset 0 0 300px 20px fade-out(#3b2207, 0.1))
+		+respond-to(handhelds)
+			+box-shadow(inset 0 0 80px 0 fade-out(#3b2207, 0.1))
+		+respond-to(medium-screens)
+			+box-shadow(inset 0 0 120px 0 fade-out(#3b2207, 0.1))
+		+respond-to(wide-screens)
+			+box-shadow(inset 0 0 200px 0 fade-out(#3b2207, 0.1))
 
 	.quote
 		position: fixed
