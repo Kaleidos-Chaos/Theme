@@ -71,3 +71,10 @@ function kc_get_random_styles() {
 function kc_random_styles() {
 	echo kc_get_random_styles();
 }
+
+
+/* THEME OPTIONS */
+
+require_once get_template_directory().'/theme-options.php';
+
+
