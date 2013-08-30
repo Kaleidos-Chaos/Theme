@@ -12,7 +12,7 @@ jQuery(function($) {
 		$vigniette = $background.find('.vigniette'),
 		$quotes = $vigniette.find('.quote');
 
-	if (!isMobile.any) {
+	if (!isMobile) {
 		/* Prepare scroll animations */
 		$quotes.each(function() {
 			var $quote = $(this),
