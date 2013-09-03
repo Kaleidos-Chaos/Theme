@@ -38,4 +38,5 @@
 			<?php get_template_part( 'author-bio' ); ?>
 		<?php endif; ?>
 	</footer><!-- .entry-meta -->
+	<div class="clear"></div>
 </article><!-- #post -->
