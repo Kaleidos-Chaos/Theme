@@ -19,6 +19,7 @@
 		</div>
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/javascripts/vendor/jquery.colorbox-min.js"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/javascripts/scripts.js"></script>
 		<?php wp_footer(); ?>
 		<?php $options = get_option('kc_theme_options'); if ($options['googleanalytics']) : ?>

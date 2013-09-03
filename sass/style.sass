@@ -33,6 +33,7 @@ a
 		color: $link-visited
 	&:hover, &:active, &:focus
 		color: $link-active
+		outline: none
 
 
 h1, h2, h3, h4, h5, h6
@@ -61,8 +62,54 @@ hr
 p
 	margin-top: 0
 
+.alignleft
+	float: left
+	margin-right: 20px
+	margin-bottom: 1rem
+
+.alignright
+	float: right
+	margin-left: 20px
+	margin-bottom: 1rem
+
+.aligncenter
+	margin-left: auto
+	margin-right: auto
+	margin-bottom: 1rem
+
 .clear
 	clear: both
+
+/* WORDPRESS STUFF */
+
+#content img
+	+border-radius(2px)
+	+box-shadow(-2px 2px 10px fade-out($black, 0.7))
+	
+#content .wp-caption
+	background: $image-bg
+	border: 1px solid $image-border
+	+border-radius(1px)
+	+box-shadow(-2px 2px 12px fade-out($black, 0.8))
+	img
+		display: block
+		margin: 5px 5px 0
+		+box-shadow(none)
+	a
+		display: block
+		border: 2px solid transparent
+		margin: 3px 3px 0
+		+border-radius(1px)
+		&:hover, &:focus, &:active
+			background: $link-active
+			border-color: $link-active
+		img
+			margin: 0
+			+border-radius(2px)
+	p
+		font-size: .8rem
+		margin: 0 5px 5px
+
 
 #page
 	padding: 2rem 0 0

@@ -12,9 +12,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png">
         <!--[if lt IE 9]>
-            <script src="<?php echo get_template_directory_uri(); ?>/javascripts/html5.js"></script>
+            <script src="<?php echo get_template_directory_uri(); ?>/javascripts/vendor/html5.js"></script>
         <![endif]-->
         <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/vendor/colorbox.css">
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>

@@ -13,6 +13,7 @@ Thanks!
 + Sexy CSS through [Sass](http://sass-lang.com/) & [Compass](http://compass-style.org/)
 + Incredible Icon Fonts from [IcoMoon](http://icomoon.io/)
 + @afarkas @jdalton @jon_neal @rem for [HTML5 Shiv](https://code.google.com/p/html5shiv/)
++ Jack Moore for [ColorBox](http://www.jacklmoore.com/colorbox/)
 
 Without these tools, life would be sad and gray...
 
